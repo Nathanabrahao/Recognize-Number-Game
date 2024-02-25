@@ -1,0 +1,57 @@
+:root {
+    --font-Sans: "Noto Sans", sans-serif;
+    --bg-head: #6C22A6;
+    --bg-color: #7B66FF;
+    --primary-color: #FFFFFF;
+    --botton-color: #F3E9DD;
+}
+
+body {
+    background: linear-gradient(to left, var(--bg-head), var(--bg-color));
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-Sans);
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 5em;
+}
+
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.btn-jogar{
+    margin-top: 20px;
+    background: var(--botton-color);
+    border-radius: 3em;
+    font-size: 0.75em;
+    padding: 8px 15px;
+}
